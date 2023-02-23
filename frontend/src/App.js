@@ -1,19 +1,15 @@
 import React from "react";
+import "./Style/style.css";
+import Navbar from "./components/navbar";
+import Banner from "./components/Banner";
 
-// Components
-import navbar from "./components/navbar";
-
-// Pages
-import Home from "./Pages/Home";
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <navbar />
-      <h1>Hello</h1>
-      <Home />
+      <Navbar />
+      <Banner />
     </div>
   );
-}
+};
 
 export default App;

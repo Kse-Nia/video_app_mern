@@ -1,0 +1,65 @@
+// Navbar
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &_logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+  }
+}
+
+// Banner
+.banner {
+  &_title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  &_description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  &_buttons {
+    display: flex;
+    margin-bottom: 1rem;
+    &-play {
+      min-width: 100px;
+      display: flex;
+      align-items: center;
+      background-color: blue;
+      color: black;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-right: 1rem;
+      cursor: pointer;
+      /*   &:hover {
+            background-color: $color-black;
+            color: $color-white;
+        } */
+    }
+    &-favoris {
+      min-width: 100px;
+      display: flex;
+      align-items: center;
+      background-color: blue;
+      color: black;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-right: 1rem;
+      cursor: pointer;
+      /*   &:hover {
+                background-color: $color-black;
+                color: $color-white;
+            } */
+    }
+  }
+}
